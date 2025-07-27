@@ -1,0 +1,40 @@
+.container{
+    background-color: bisque;
+    padding: 1em;
+    text-align: center;
+}
+.list-container{
+    height: 500px;
+}
+html, body {
+  height: 100%;       /* Make sure body takes full height */
+  margin: 0;          /* Remove default margin */
+}
+
+body {
+  display: flex;
+  justify-content: center;  /* center horizontally */
+  align-items: center;      /* center vertically */
+  height: 100vh;            /* full viewport height */
+}
+
+.single-task{
+    border: 2px solid brown;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 0;
+    padding: 0.2em 0 0.2em 0;
+    span{
+        padding: 2px 10px 2px 10px;
+        width: 20%;
+    }
+    button{
+        float: right;
+
+    }
+    input[type="checkbox"]{
+        background-color: brown;
+        border:1px solid black;
+    }
+
+}
